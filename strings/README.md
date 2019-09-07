@@ -27,8 +27,6 @@ Você deve seguir o exemplo de output [deste arquivo](https://github.com/idwall/
 ### Parte 2 (Intermediário) - limite 40 caracteres
 O exemplo de output está [neste arquivo](https://github.com/idwall/desafios/blob/master/strings/output-parte2.txt), onde além de o arquivo possuir, no máximo, 40 caracteres por linha, o texto deve estar **justificado**.
 
-### Dicas
-- Existe um template para projetos em Java ;)
 
 ### Extras
 

@@ -63,7 +63,7 @@ def main_parser(sargs):
             print("#" * SPACE,thread.title(), "#" * SPACE,)
             print_result_threads(result)
 
-    if args.command == "telegram":
+    elif args.command == "telegram":
         
         bot = TelegranBot(args.token)
         bot.register()
