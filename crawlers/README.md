@@ -29,3 +29,40 @@ Construir um robô que nos envie essa lista via Telegram sempre que receber o co
 ### Dicas
  - Use https://old.reddit.com/
  - Qualquer método para coletar os dados é válido. Caso não saiba por onde começar, procure por JSoup (Java), SeleniumHQ (Java), PhantomJS (Javascript) e Beautiful Soup (Python).
+
+### Instalação
+
+#### Criar o virtualenv
+
+```bash
+$ virtualenv -p /usr/bin/python3.6 crawlers
+```
+
+#### Clonar o código fonte da aplicação
+
+```bash
+$ cd crawlers
+$ git clone https://github.com/cesarbruschetta/desafios.git app
+```
+
+#### Instalar as dependências do python
+
+```bash
+$ cd app/crawlers
+$ ../bin/pip install -e .
+```
+
+### Execução
+
+#### Executar comando Parte 1
+```bash
+$ cd app/crawlers
+$ ../bin/threadsreddit bombando "worldnews;cats"
+```
+
+#### Executar comando Parte 2
+```bash
+$ cd app/crawlers
+$ ../bin/threadsreddit telegram --token XXXXX
+```
+*PS* token fornecido pelo BotFather do Telegram

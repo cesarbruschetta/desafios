@@ -31,3 +31,19 @@ O exemplo de output está [neste arquivo](https://github.com/idwall/desafios/blo
 ### Extras
 
 - Parametrização da quantidade de caracteres por linha.
+
+### Execução
+
+#### Executar Comando Parte 1
+```bash
+$ cd app/crawlers
+$ python format_text_with_codestyle.py --size 40  "TEXTO A FORMATAR"
+```
+
+#### Executar Comando Parte 2
+```bash
+$ cd app/crawlers
+$ python format_text_with_codestyle.py --size 40 --justificar  "TEXTO A FORMATAR"
+```
+
+*PS* o parametro `size` é opcional
